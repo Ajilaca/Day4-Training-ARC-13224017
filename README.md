@@ -1,5 +1,5 @@
 # Day4-Training-ARC-13224017
-#Topology
+# Topology
 Topology You will receive one of three possible topologies.
 | Device    | Interface | IP Address              | Default Gateway |
 |-----------|-----------|-------------------------|----------------|
