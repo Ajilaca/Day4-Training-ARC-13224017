@@ -31,8 +31,29 @@ In this activity, you will configure the College router, Class-B switch, and the
 Note: Packet Tracer will not score some configured values, however these values are required to accomplish full connectivity in the network.
 Konfigurasi Router
 
+Requirements
+- Provide the missing information in the Addressing Table.
+  Note: Some of the information is provided in the Packet Tracer instructions for your topology.
+- Name the router College and the second switch Class-B. You will not be able to access the Class-A switch.
+- Use cisco as the user EXEC password for all lines.
+- Use class as the encrypted privileged EXEC password.
+- Encrypt all plaintext passwords.
+- Configure an appropriate banner.
+- Configure IPv4 and IPv6 addressing for the College router according to the Addressing Table.
+- Configure IPv4 addressing for the Class-B switch according to the Addressing Table.
+- Configure the default gateway for Class-B switch.
+- Document interfaces with descriptions, including the Class-B VLAN 1 interface.
+- Save your configurations.
+- The hosts are partially configured. Complete the IPv4 addressing, and fully configure the IPv6 addresses according to the Addressing Table.
+- Verify connectivity between all devices. All devices should be able to ping all other devices with IPv4 and IPv6.
+- Troubleshoot and document any issues.
+- Implement the solutions necessary to enable and verify full end-to-end connectivity.
+  Note: Click Check Results button to see your progress. Click the Reset Activity button to generate a new set of requirements.
+
+ID: 022
+
 Jalankan perintah berikut pada mode konfigurasi router untuk mengaktifkan IPv6 dan mengonfigurasi antarmuka jaringan:
-## Router Configuration
+## Konfigurasi Interface
 
 ```bash
 enable
@@ -48,5 +69,7 @@ interface g0/1
  ipv6 enable
  no shutdown
  exit
+
+
 exit
 
